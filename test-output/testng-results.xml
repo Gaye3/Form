@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-01T17:05:58 IST" name="Suite" finished-at="2024-03-01T17:06:00 IST" duration-ms="1046">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunFeaturesTest@66d3eec0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-03-01T17:05:58 IST" name="Test" finished-at="2024-03-01T17:06:00 IST" duration-ms="1046">
+      <class name="runner.RunFeaturesTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunFeaturesTest@66d3eec0]" started-at="2024-03-01T17:05:59 IST" name="setUpClass" finished-at="2024-03-01T17:05:59 IST" duration-ms="675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6de0f580]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunFeaturesTest@66d3eec0]" started-at="2024-03-01T17:05:59 IST" name="tearDownClass" finished-at="2024-03-01T17:06:00 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunFeaturesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
